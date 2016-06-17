@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="turn_computer">Os Turn!</string>
+    <string name="turn_human">Xs Turn!</string>
+    <string name="result_tie">Tie!</string>
+    <string name="result_human_wins">X Wins!</string>
+    <string name="result_computer_wins">O Wins!</string>
+</resources>

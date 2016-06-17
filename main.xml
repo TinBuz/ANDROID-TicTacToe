@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+    <TableRow>
+        <Button
+            android:id="@+id/square1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/square4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/square7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="NEW GAME"
+            android:id="@+id/NEW_GAME"
+            android:layout_column="0"
+            android:layout_span="3" />
+    </TableRow>
+</TableLayout>
